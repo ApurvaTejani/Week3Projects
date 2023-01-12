@@ -1,0 +1,116 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+ body{
+    background-image: url(./assets/bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-right: 36rem;
+    font-size: 17px;
+  
+}
+
+.list-item{
+    margin-left: 3rem;
+    list-style: none;
+}
+
+.img{
+    margin-left: 8rem;
+    margin-top: 19px;
+    margin-bottom: 19px;
+   
+}
+
+.logo{
+    height: 35px;
+    width: 95px;
+    
+}
+
+.line{
+    border-left: 3px solid white;
+    height: 50px;
+    margin-left: 3rem;
+}
+
+.button-small {
+    background-color: #ba0cc5; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-right: 5rem;
+    width: 145px;
+    height: 40px;
+    font-weight: 550;
+  }
+
+  .buttonclass{
+    margin-right: 5rem;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    color: white;
+  }
+
+  h1{
+    font-size: 72px;
+  }
+
+  .hero-description{
+    font-size: 26px;
+  }
+
+  .button-large{
+    background-color: #ba0cc5; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 10px;
+    width: 18rem;
+    height: 4rem;
+    font-weight: 550;
+    margin-top: 30px;
+  }
+
+  
