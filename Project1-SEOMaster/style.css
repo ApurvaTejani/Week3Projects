@@ -1,0 +1,108 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #c4c4c4;
+    font-weight: 535;
+    margin-left: 70px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+     margin-right: 38rem;
+}
+
+.list-item{
+   margin-right: 25px;
+}
+
+.list-item:first-child{
+    font-weight: 600;
+    color: black;
+}
+.navbar-container div img{
+    height: 35px;
+    width: 95px;
+   
+}
+
+.button-group .nav-button{
+    background-color: #5955b3; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-right: 5rem;
+    width: 140px;
+    height: 50px;
+    font-weight: 520;
+  }
+
+
+  .banner-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .heading-text{
+    font-size: 60px;
+    color: #3c2f60;
+  }
+
+  .banner-container .heading-text span{
+    color: #5955b3;
+  }
+
+  .banner-container div img{
+    width: 670px;
+    height: 450px;
+    
+  }
+
+  .banner-container div{
+    margin-right: 200px;
+  }
+
+  .description{
+    color: #c4c4c4;
+    font-weight: 550;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .nav-button{
+    background-color: #5955b3; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+
+  
